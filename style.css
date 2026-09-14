@@ -5,13 +5,16 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main{
     text-align: center;
     border: solid #2757F5 2px;
     width: 300px;  
-    margin: 80px auto;
     padding: 30px;
     height: 400px;
     border-radius: 8px;
@@ -82,3 +85,4 @@ select{
     font-size: 17px;
     padding: 3px;
 }
+
